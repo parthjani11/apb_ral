@@ -1,0 +1,51 @@
+# Simulation logs and execution results
+*.log
+*.out
+*.err
+*.jou
+*.trace
+results*
+sweep_master.log
+tr_db.log
+cm.log
+
+# Synopsys VCS generated files
+simv
+simv.*
+csrc/
+simv.daidir/
+simv.vdb/
+DVEfiles/
+ucli.key
+vc_hdrs.h
+*.vpd
+*.fsdb
+*.vcd
+
+# Coverage reports
+urgReport/
+covReport/
+coverage/
+
+# Generated FSM output
+.fsm.sch.verilog.xml
+
+# Simulation waveforms
+*.wlf
+transcript
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# Python generated files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
